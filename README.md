@@ -1,0 +1,1 @@
+# no_thunar_rename_crash
