@@ -13,9 +13,8 @@ The renaming will also be sanitezed. Only valid alphabets, numbers and some punc
 Run the command below to compile the program, move it in your $HOME/.cache dir. Backup the source code **main.c**.
 
 ```bash
-# -Wundef -Wwrite-strings -Wcast-align -Wstrict-overflow=5 -W -Wshadow -Wconversion -Wpointer-arith -Wstrict-prototypes -Wformat=2 -Wmissing-prototypes 
-
-gcc -Wall -Wextra -O2 main.c -o rename `pkg-config --cflags --libs gtk+-3.0`
+make
+sudo make install
 ```
 
 ## Configure
