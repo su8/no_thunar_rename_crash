@@ -10,8 +10,6 @@ The renaming will also be sanitezed. Only valid alphabets, numbers and some punc
 
 ## Compile
 
-Run the command below to compile the program, move it in your $HOME/.cache dir. Backup the source code **main.c**.
-
 ```bash
 make
 sudo make install
